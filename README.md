@@ -6,9 +6,9 @@
 
 This repository is an unofficial fork of [peej/lumberjack-keyboard](https://github.com/peej/lumberjack-keyboard) by Paul James, modified to support hot-swappable MX switches. The switch footprints and PCB routing have been changed for hotswap sockets.
 
-The hotswap footprints are sourced from [Salicylic-acid3/KiCAD_FootPrint](https://github.com/Salicylic-acid3/KiCAD_FootPrint). See [footprint sources and licenses](footprints/README.md) for attribution and license details. The original project's [MIT license](LICENSE) is retained.
+The hotswap footprints are sourced from [Salicylic-acid3/KiCAD_FootPrint](https://github.com/Salicylic-acid3/KiCAD_FootPrint). See [footprint sources and licenses](footprints/README.md) for attribution and license details.
 
-PCBs for this hotswap version have been manufactured, assembled, and confirmed to work. The onboard USB-C connection has also been confirmed to work.
+This hotswap version has been built and tested using the onboard USB-C connection.
 
 ### Daughterboard connector limitation
 
