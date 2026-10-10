@@ -1,8 +1,24 @@
 # Lumberjack - Through-hole ortholinear 60% keyboard PCB
 
-Lumberjack is a split 5x12 ortholinear keyboard PCB using through-hole components only.
+![Lumberjack hotswap build and PCB underside with hotswap sockets](images/lumberjack_hotswap.jpg)
 
-![Tofu w/ KAT Space Cadet](images/tofu-kat-spacecadet.jpg)
+## Hotswap fork
+
+This repository is an unofficial fork of [peej/lumberjack-keyboard](https://github.com/peej/lumberjack-keyboard) by Paul James, modified to support hot-swappable MX switches. The switch footprints and PCB routing have been changed for hotswap sockets.
+
+The hotswap footprints are sourced from [Salicylic-acid3/KiCAD_FootPrint](https://github.com/Salicylic-acid3/KiCAD_FootPrint). See [footprint sources and licenses](footprints/README.md) for attribution and license details. The original project's [MIT license](LICENSE) is retained.
+
+PCBs for this hotswap version have been manufactured, assembled, and confirmed to work. The onboard USB-C connection has also been confirmed to work.
+
+### Daughterboard connector limitation
+
+The footprint for the USB daughterboard cable connector is retained on the PCB, but the connector may interfere with the hotswap sockets. Whether it can be installed and used has not been verified; do not assume daughterboard compatibility. Use the verified onboard USB-C connection for the tested configuration.
+
+The documentation below describes the original Lumberjack. Its images, bill of materials, assembly instructions, and manufacturing files may differ from this hotswap version. Before ordering, ensure that the manufacturing files correspond to the hotswap design you intend to build.
+
+## Original project
+
+Lumberjack is a split 5x12 ortholinear keyboard PCB using through-hole components only.
 
 The goal of this project is to build an all through-hole component ortholinear PCB that fits in a standard 60% tray mount case.
 
